@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sugik & desak wedding</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;400;700&display=swap" rel="stylesheet">
+
+    <!-- simplyCountdown -->
+    <link rel="stylesheet" href="Countdown/simplyCountdown.theme.default.css"/>
+    <script src="Countdown/simplyCountdown.min.js"></script>
+
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"> 
+        <main>
+            <h4>kepada bapak / ibu / teman / sodara </h4>
+            <h1> sugik & desak</h1>
+            <p>akan melangsungkan resepsi pernikahan dalam:</p>
+            <div class="simply-countdown"></div> <!-- Ubah class menjadi id -->
+            <a href="#undangan" class="btn btn-lg mt-4">lihat undangan</a>
+        </main>
+    </section>
+
+
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Nyok</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Nyok</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link"  href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#info">Info</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#storry">storry</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#galerry">galerry</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#RSVP">RSVP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gift">gift</a>
+              </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+
+<section id="home" class="home">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center">
+      <h2>Pawiwahan</h2>
+      <h3>Diselengarakan pada 16 september 2030 di Nusepenida,Bali</h3>
+      <p>oleh karena itu, dengan segala, Kami bermaksud untuk mengundang Bapak/Ibu,Saudara/i,untuk hadir pada acara pernikahan kami</p>
+    </div>
+    </div>
+    <div class="row couple ">
+      <div class="col-lg-6">
+        <div class="row">
+          <div class="col-8 text-end">
+            <h3>Sugik</h3>
+            <p>laki laki bertanggung jawab dan penyayang</p>
+            <p>Putra dari Bpk.ugik <br> dan <br>Ibu ugik</p>
+          </div>
+          <div class="col-2">
+            <img src="img/sugik.jpg" alt="Sugik" class="img-responsive rounded-circle">
+          </div>
+        </div>
+      </div>
+
+      <span class="heart"><i class="bi bi-balloon-heart-fill"></i></span>
+
+      <div class="col-lg-6">
+        <div class="row">
+          <div class="col-2">
+            <img src="img/Desak.jpg" alt="Desak" class="img-responsive rounded-circle">
+          </div>
+          <div class="col-8 ">
+            <h3>Desak</h3>
+            <p>wanita yang keras kepala dan penyayang</p>
+            <p>Putri dari AJik <br> dan <br>Ibu</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+ 
+    <script>
+      simplyCountdown('.simply-countdown', { // Ubah ke id yang sesuai
+        year: 2030, // Ganti dengan tahun target Anda
+        month: 12, // Ganti dengan bulan target Anda (Desember adalah 12)
+        day: 31, // Ganti dengan tanggal target Anda
+        hours: 0, // Default adalah 0 [0-23] (ubah sesuai kebutuhan)
+        minutes: 0, // Default adalah 0 [0-59] (ubah sesuai kebutuhan)
+        seconds: 0, // Default adalah 0 [0-59] (ubah sesuai kebutuhan)
+        words: { // Kata-kata yang akan ditampilkan dalam countdown
+          days: { singular: 'hari', plural: 'hari' },
+          hours: { singular: 'jam', plural: 'jam' },
+          minutes: { singular: 'menit', plural: 'menit' },
+          seconds: { singular: 'detik', plural: 'detik' }
+        }
+      });
+    </script>
+  </body>
+</html>
